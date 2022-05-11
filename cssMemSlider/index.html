@@ -17,20 +17,31 @@
       <main class="main">
          <div class="main__container">
             <div class="main__slide slider">
-               <form action="#">
-                  <div class="slider__body">
-                     <div class="slider__slide">
-                        <img src="assets/dog-1.jpg" alt="dog-1" class="slider__img">
-                     </div>
-                     <div class="slider__slide">
-                        <img src="assets/dog-2.jpg" alt="dog-2" class="slider__img">
-                     </div>
+               <input class="slider__input-1" checked type="radio" name="slider" id="bullet-1">
+               <input class="slider__input-2" type="radio" name="slider" id="bullet-2">
+               <input class="slider__input-3" type="radio" name="slider" id="bullet-3">
+               <input class="slider__input-4" type="radio" name="slider" id="bullet-4">
+
+               <div class="slider__body">
+                  <img src="assets/dog-1.jpg" alt="dog-1" class="slider__img img-1">
+                  <img src="assets/dog-2.jpg" alt="dog-2" class="slider__img img-2">
+                  <img src="assets/dog-3.jpg" alt="dog-3" class="slider__img img-3">
+                  <img src="assets/dog-4.jpg" alt="dog-4" class="slider__img img-4">
+               </div>
+               <div class="slider__joke joke">
+                  <div class="joke__inner">
+                     <p class="slider__text text-1">azaz #1</p>
+                     <p class="slider__text text-2">azaz #2</p>
+                     <p class="slider__text text-3">azaz #3</p>
+                     <p class="slider__text text-4">azaz #4</p>
                   </div>
-                  <input type="checkbox" name="" id="bullet-1">
-                  <label class="slider__label-1" for="bullet-1"></label>
-                  <input type="checkbox" name="" id="bullet-2">
-                  <label class="slider__label-2" for="bullet-2"></label>
-               </form>
+               </div>
+               <div class="controls">
+                  <label class="slider__label label-1" for="bullet-1"></label>
+                  <label class="slider__label label-2" for="bullet-2"></label>
+                  <label class="slider__label label-3" for="bullet-3"></label>
+                  <label class="slider__label label-4" for="bullet-4"></label>
+               </div>
             </div>
          </div>
       </main>
