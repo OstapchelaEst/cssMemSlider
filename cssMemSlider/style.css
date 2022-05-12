@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
    * {
       padding: 0px;
       margin: 0px;
@@ -113,11 +114,13 @@
       max-width: 60vw;
       margin: 0 auto;
       border:8px solid #16bbad;
+      background-color: #612897;
       overflow: hidden;
 
       display: flex;
       flex-wrap: wrap;
       row-gap: 1em;
+      padding-bottom: 15px;
    }
 
    .slider input{
@@ -151,7 +154,6 @@
    .img-4 {
    }
    .slider__joke {
-      background-color:blueviolet;
       width: 70%;
       overflow: hidden;
    }
@@ -189,14 +191,13 @@
       width: 35px;
       height: 35px;
       transition: all 0.5s ease 0s;
-      box-shadow: inset 0px 0px 0px 9px #ffffff;
-      background-color: yellowgreen;
+      padding: 10px;
       cursor: pointer;
       
    }
    @media (any-hover: hover){
       .slider__label:hover{
-         box-shadow: inset 0px 0px 0px 9px #ffaeae;
+         box-shadow: inset 0px 0px 0px 11px #ffaeae;
          }
       }
    .label-1 {
@@ -207,10 +208,17 @@
    }
    .label-4 {
    }
+   .label {
+      width: 100%;
+      height: 100%;
+      background-color:#a72a66;
+      border-radius: 50%;
+      transition: all 0.3s ease 0s;
+   }
 
 
    .slider__input-1:checked ~ .controls .label-1{
-      background-color:rgb(172, 252, 11) ;
+      background-color:#FF008E ;
    }
    .slider__input-1:checked ~ .slider__body .img-1{
       margin-left: 0%;
@@ -224,7 +232,7 @@
 
 
    .slider__input-2:checked ~ .controls .label-2{
-      background-color:rgb(172, 252, 11); 
+      background-color:#FF008E; 
    }
    .slider__input-2:checked ~ .slider__body .img-1{
       margin-left: -100%;
@@ -239,7 +247,7 @@
 
 
    .slider__input-3:checked ~ .controls .label-3{
-      background-color:rgb(172, 252, 11); 
+      background-color:#FF008E; 
    }
    .slider__input-3:checked ~ .slider__body .img-1{
       margin-left: -200%;
@@ -254,7 +262,7 @@
 
 
    .slider__input-4:checked ~ .controls .label-4{
-      background-color:rgb(172, 252, 11); 
+      background-color:#FF008E; 
    }
    .slider__input-4:checked ~ .slider__body .img-1{
       margin-left: -300%;
