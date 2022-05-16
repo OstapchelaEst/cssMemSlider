@@ -105,6 +105,13 @@
    .wrapper {
       padding: 0 10px 50px 10px;
    }
+
+   .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+   }
    .slider {
       max-width: 60vw;
       margin: 0 auto;
